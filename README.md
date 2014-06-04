@@ -1,4 +1,4 @@
 Windows-Phone-Minesweeper
 =========================
 
-This project is a classic Minesweeper Game for Windows Phone 7 &amp; 8. The project is written in C# and stored here as a Visual Studio 2012 solution
+Hi guys. This project is a classic Minesweeper Game for Windows Phone 7 & 8. The project is written in C# and stored here as a Visual Studio 2012 solution. You also need Windows Phone SDK for opening this project. This project depends on MonoGame library which you can find here https://github.com/mono/MonoGame. It also depends on Flurry (dev.flurry.com) and BugSense (www.bugsense.com) libraries which provide me statistics of using of this application. It is easy to tear away the latter two libraries if they are disturbing for you (just delete dependencies and remark a few lines of code with errors). I would love if somebody develop this application further, I am ready to provide any support. Just write me: evg.freyman@gmail.com. This game is quite popular (about 50 000 downloads, third place on "Minesweeper" query in Windows Store). Now it is completely free and doesn't contain any advertising, we can discuss any possible future of this application.
