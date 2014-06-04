@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPageTitle" xml:space="preserve">
+    <value>के बारे में</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>क्लासिक Minesweeper खेल</value>
+  </data>
+  <data name="ChampionsPageTitle" xml:space="preserve">
+    <value>चैंपियंस</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>LazyPenguin स्टूडियो</value>
+  </data>
+  <data name="Congratulation" xml:space="preserve">
+    <value>बधाई हो!</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>रूस</value>
+  </data>
+  <data name="designer" xml:space="preserve">
+    <value>ग्राफिक डिजाइनर</value>
+  </data>
+  <data name="DesignerName" xml:space="preserve">
+    <value>फर्नांडो Castilio</value>
+  </data>
+  <data name="developer" xml:space="preserve">
+    <value>विकासक</value>
+  </data>
+  <data name="DeveloperName" xml:space="preserve">
+    <value>एवगेनी Freyman</value>
+  </data>
+  <data name="EnterNamePhrase" xml:space="preserve">
+    <value>कृपया अपना नाम लिखें</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>निकास</value>
+  </data>
+  <data name="ExitQuestion" xml:space="preserve">
+    <value>आप वास्तव में इस खेल को छोड़ करना चाहते हैं?</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>ऊंचाई</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>मदद</value>
+  </data>
+  <data name="HelpMessage_line1" xml:space="preserve">
+    <value>यह एक क्लासिक Minesweeper खेल है. नियम मानक विंडोज Minesweeper खेल के रूप में ही हैं, लेकिन नियंत्रण अलग है. नियमों का पूर्ण विवरण (सही करने के लिए स्क्रीन पाली) प्रारंभ पृष्ठ पर उपलब्ध है.</value>
+  </data>
+  <data name="HelpMessage_line2" xml:space="preserve">
+    <value>एक सेल को उजागर करने के लिए - कुछ समय के लिए सेल पर एक उंगली पकड़. खेल के रूप में जल्द ही पहले सेल का पर्दाफाश कर रहा है के रूप में शुरू होता है.</value>
+  </data>
+  <data name="HelpMessage_line3" xml:space="preserve">
+    <value>एक झंडा रख - सेल पर एक उंगली नल.</value>
+  </data>
+  <data name="HelpMessage_line4" xml:space="preserve">
+    <value>मेरा डिटेक्टर का उपयोग करें - आप कोशिकाओं को उजागर करना चाहते हैं, जो चारों ओर नंबर पर एक उंगली नल. इस संख्या के आसपास हर ध्वज सही है केवल अगर यह सुरक्षित है कि याद रखें.</value>
+  </data>
+  <data name="HelpMessage_line5" xml:space="preserve">
+    <value>आराम से खेलने के रूप में संभव के रूप में अक्सर मेरा डिटेक्टर का उपयोग और बहुत मुश्किल से ही एक उंगली पकड़े द्वारा कोशिकाओं को उजागर करने लगता है.</value>
+  </data>
+  <data name="HelpMessage_line6" xml:space="preserve">
+    <value>गुड लक</value>
+  </data>
+  <data name="landmines" xml:space="preserve">
+    <value>बारूदी सुरंगों</value>
+  </data>
+  <data name="level1" xml:space="preserve">
+    <value>नौसिखिया</value>
+  </data>
+  <data name="level2" xml:space="preserve">
+    <value>मध्यवर्ती</value>
+  </data>
+  <data name="level3" xml:space="preserve">
+    <value>विशेषज्ञ</value>
+  </data>
+  <data name="levelx" xml:space="preserve">
+    <value>विशेष</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>ठीक</value>
+  </data>
+  <data name="ooops" xml:space="preserve">
+    <value>ओह!</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>सेकंड्स</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>खेल</value>
+  </data>
+  <data name="soundEffects" xml:space="preserve">
+    <value>ध्वनि प्रभाव</value>
+  </data>
+  <data name="StartButton" xml:space="preserve">
+    <value>प्रारंभ</value>
+  </data>
+  <data name="UnhandledMessage_line1" xml:space="preserve">
+    <value>हम एक समस्या है: (</value>
+  </data>
+  <data name="UnhandledMessage_line2" xml:space="preserve">
+    <value>चिंता मत करो, रिपोर्ट पहले से ही डेवलपर्स के लिए भेजा गया था और अब वे इस मुद्दे को ठीक करने के क्रम में कड़ी मेहनत कर रहे हैं :)</value>
+  </data>
+  <data name="UnhandledMessage_line3" xml:space="preserve">
+    <value>आप वास्तव में गुस्सा हो रहे हैं, यहाँ ईमेल करें:</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>अज्ञात</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>संस्करण</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>चौडाई</value>
+  </data>
+  <data name="rules" xml:space="preserve">
+    <value>नियम</value>
+  </data>
+  <data name="Rules_line1" xml:space="preserve">
+    <value>वस्तु:</value>
+  </data>
+  <data name="Rules_line10" xml:space="preserve">
+    <value>- पैटर्न का अध्ययन. एक पंक्ति प्रदर्शन 2-3-2 में तीन चौकों, तो आप जानते हैं कि तीन बारूदी सुरंगों शायद उस पंक्ति के पास लाइन में खड़ा कर रहे हैं. एक वर्ग 8 कहते हैं, हर आसपास के वर्ग खनन होता है.</value>
+  </data>
+  <data name="Rules_line11" xml:space="preserve">
+    <value>- बेरोज़गार अन्वेषण. यकीन है कि जहां अगले क्लिक करने के लिए नहीं?. तुम सुरंग है संदेह एक क्षेत्र में से अगोचर वर्गों के बीच में क्लिक करने से बेहतर कर रहे.</value>
+  </data>
+  <data name="Rules_line2" xml:space="preserve">
+    <value>- खानों से परहेज खाली वर्गों का पता लगाएं. तेजी से आप बोर्ड स्पष्ट, बेहतर आपका स्कोर.</value>
+  </data>
+  <data name="Rules_line3" xml:space="preserve">
+    <value>कैसे खेलने के लिए:</value>
+  </data>
+  <data name="Rules_line4" xml:space="preserve">
+    <value>- खेल समाप्त होता है और, एक बारूदी सुरंग उजागर.</value>
+  </data>
+  <data name="Rules_line5" xml:space="preserve">
+    <value>- एक खाली वर्ग को उजागर, और आप खेलते रहना.</value>
+  </data>
+  <data name="Rules_line6" xml:space="preserve">
+    <value>- एक नंबर का खुलना, और यह आपको बताता है कि कई बारूदी सुरंगों तुम पास चौकों खोलने के लिए सुरक्षित कर रहे हैं जो परिणाम निकालना करने के लिए उपयोग आठ आसपास के चौराहों, सूचना में छिपा रखना कैसे.</value>
+  </data>
+  <data name="Rules_line7" xml:space="preserve">
+    <value>संकेत और टिप्स:</value>
+  </data>
+  <data name="Rules_line8" xml:space="preserve">
+    <value>- मार्क बारूदी सुरंगों. आप एक वर्ग एक खदान छिपा संदेह है, यह नल. इस वर्ग पर एक झंडा डालता.</value>
+  </data>
+  <data name="Rules_line9" xml:space="preserve">
+    <value>- उपयोग मेरा डिटेक्टर. आप एक संख्या भर में हर ध्वज के बारे में सुनिश्चित कर रहे हैं, यह और यह उजागर नल यह संख्या लगभग सभी कोशिकाओं</value>
+  </data>
+  <data name="ADescription" xml:space="preserve">
+    <value>क्लासिक माइनस्वीपर गेम, मानक Windows खेल की एक प्रति. यह एक पहेली है - क्या तुम एक minefield स्पष्ट करना चाहिए. संकेत द्वारा आप बारूदी सुरंगों स्थान के लिए बाहर निकालने और उन्हें चिह्नित करना चाहिए. आप एक विशेषज्ञ के लिए एक शुरुआत से कठिनाई का स्तर चुन सकते हैं या अपने खुद के खेल बना सकते हैं. इस आवेदन पूरी तरह से स्वतंत्र है और किसी भी विज्ञापन शामिल नहीं है.</value>
+  </data>
+  <data name="AKeywords" xml:space="preserve">
+    <value>पहेली, बारूदी सुरंग, तर्क, झंडा, संख्या</value>
+  </data>
+  <data name="ATitle1" xml:space="preserve">
+    <value>सुरंग हटानेवाला ट्रालर - जहाज़</value>
+  </data>
+  <data name="ATitle2" xml:space="preserve">
+    <value>क्लासिक माइनस्वीपर</value>
+  </data>
+  <data name="ATitle3" xml:space="preserve">
+    <value>आलसी माइनस्वीपर</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>hi-IN</value>
+  </data>
+  <data name="WrongParamsMessage" xml:space="preserve">
+    <value>यह इन मानकों के साथ एक खेल बनाने के लिए असंभव है</value>
+  </data>
+</root>

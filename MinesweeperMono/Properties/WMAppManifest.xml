@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="ru-RU" />
+    <Language code="ar-SA" />
+    <Language code="cs-CZ" />
+    <Language code="da-DK" />
+    <Language code="de-DE" />
+    <Language code="es-ES" />
+    <Language code="fr-FR" />
+    <Language code="he-IL" />
+    <Language code="hi-IN" />
+    <Language code="it-IT" />
+    <Language code="nb-NO" />
+    <Language code="nl-NL" />
+    <Language code="pl-PL" />
+    <Language code="pt-PT" />
+    <Language code="sv-SE" />
+    <Language code="tr-TR" />
+    <Language code="zh-CN" />
+    <Language code="kk-KZ" />
+    <Language code="uk-UA" />
+    <Language code="be-BY" />
+  </Languages>
+  <App xmlns="" ProductID="{362d8965-872e-4bbd-af98-b25b96ca00ed}" Title="@AppResLib.dll,-100" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Minesweeper author" Description="Sample description" Publisher="Minesweeper" PublisherID="{0df4bf76-7146-42eb-ba7c-83daa7249a23}">
+    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_IDENTITY_DEVICE" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_LOCATION" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="GamePage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="MinesweeperToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
+          <Title>@AppResLib.dll,-200</Title>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false"></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
+          <HasLarge>false</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>

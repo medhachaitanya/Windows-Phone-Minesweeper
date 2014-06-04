@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPageTitle" xml:space="preserve">
+    <value>על</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>שולה המוקשים קלאסי משחק</value>
+  </data>
+  <data name="ChampionsPageTitle" xml:space="preserve">
+    <value>אלופות</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>LazyPenguin סטודיו</value>
+  </data>
+  <data name="Congratulation" xml:space="preserve">
+    <value>מזל טוב!</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>רוסיה</value>
+  </data>
+  <data name="designer" xml:space="preserve">
+    <value>מעצב גרפי</value>
+  </data>
+  <data name="DesignerName" xml:space="preserve">
+    <value>פרננדו Castilio</value>
+  </data>
+  <data name="developer" xml:space="preserve">
+    <value>מפתחים</value>
+  </data>
+  <data name="DeveloperName" xml:space="preserve">
+    <value>יבגני Freyman</value>
+  </data>
+  <data name="EnterNamePhrase" xml:space="preserve">
+    <value>נא להזין את השם שלך</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>יציאה</value>
+  </data>
+  <data name="ExitQuestion" xml:space="preserve">
+    <value>האם אתה באמת רוצה לעזוב את המשחק?</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>גובה</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>עזרה</value>
+  </data>
+  <data name="HelpMessage_line1" xml:space="preserve">
+    <value>זה הוא משחק שולה מוקשה קלאסי. החוקים הם אותו הדבר כמו במשחק השולה מוקשה חלונות הסטנדרטי, אך שונה שליטה. תיאור מלא של כללים נגיש בדף הפתיחה (להזיז את המסך בצד הימין).</value>
+  </data>
+  <data name="HelpMessage_line2" xml:space="preserve">
+    <value>לחשוף תא - מחזיק את האצבע על התא במשך זמן מה. המשחק מתחיל ברגע שהתא הראשון הוא חשף.</value>
+  </data>
+  <data name="HelpMessage_line3" xml:space="preserve">
+    <value>כדי לשים את דגל - ברז אצבע על התא.</value>
+  </data>
+  <data name="HelpMessage_line4" xml:space="preserve">
+    <value>כדי להשתמש בגלאי שלי - רז אצבע על המספר שסביבו אתה רוצה לחשוף תאים. זכור כי הוא בטוח רק אם כל דגל סביב המספר הזה הוא נכון.</value>
+  </data>
+  <data name="HelpMessage_line5" xml:space="preserve">
+    <value>נוח לשחק מניח באמצעות גלאיי לעתים קרובות ככל האפשר וחשיפת תאים על ידי החזקת אצבע לעתים רחוקות מאוד.</value>
+  </data>
+  <data name="HelpMessage_line6" xml:space="preserve">
+    <value>בהצלחה</value>
+  </data>
+  <data name="landmines" xml:space="preserve">
+    <value>מוקשים</value>
+  </data>
+  <data name="level1" xml:space="preserve">
+    <value>מתחיל</value>
+  </data>
+  <data name="level2" xml:space="preserve">
+    <value>ביניים</value>
+  </data>
+  <data name="level3" xml:space="preserve">
+    <value>מומחה</value>
+  </data>
+  <data name="levelx" xml:space="preserve">
+    <value>מיוחד</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="ooops" xml:space="preserve">
+    <value>אופס!</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>שניות</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>משחק</value>
+  </data>
+  <data name="soundEffects" xml:space="preserve">
+    <value>אפקטים קוליים</value>
+  </data>
+  <data name="StartButton" xml:space="preserve">
+    <value>התחלה</value>
+  </data>
+  <data name="UnhandledMessage_line1" xml:space="preserve">
+    <value>יש לנו בעיה: (</value>
+  </data>
+  <data name="UnhandledMessage_line2" xml:space="preserve">
+    <value>אל תדאגו, את הדוח כבר נשלח למפתחים ועכשיו הם עובדים קשה על מנת לפתור בעיה זו :)</value>
+  </data>
+  <data name="UnhandledMessage_line3" xml:space="preserve">
+    <value>אם אתה ממש כועס, אנא שלח לכאן:</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>לא ידוע</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>גרסה</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>רוחב</value>
+  </data>
+  <data name="rules" xml:space="preserve">
+    <value>כללים</value>
+  </data>
+  <data name="Rules_line1" xml:space="preserve">
+    <value>האובייקט:</value>
+  </data>
+  <data name="Rules_line10" xml:space="preserve">
+    <value>- ללמוד את הדפוסים. אם שלושה ריבועים בשורת תצוגה 2-3-2, אז אתה יודע שלושה מוקשים כנראה הם נעמדו לצד שורה זו. אם כיכר אומרת 8, כל ריבוע שמסביב הוא ממוקש.</value>
+  </data>
+  <data name="Rules_line11" xml:space="preserve">
+    <value>- חקור את נחקר. לא בטוח היכן ללחוץ הבא?. עדיף לך לחיצה באמצע ריבועים לא מסומנים מאשר באזור שאתה חושד שהוא ממוקש.</value>
+  </data>
+  <data name="Rules_line2" xml:space="preserve">
+    <value>- מצא את המשבצות הריקות, תוך הימנעות המוקשים. מהר לך לנקות את הלוח, הציון שלך טוב יותר.</value>
+  </data>
+  <data name="Rules_line3" xml:space="preserve">
+    <value>איך לשחק:</value>
+  </data>
+  <data name="Rules_line4" xml:space="preserve">
+    <value>- לחשוף מוקש, והמשחק מסתיים.</value>
+  </data>
+  <data name="Rules_line5" xml:space="preserve">
+    <value>- לחשוף ריבוע ריק, ואתה תמשיך לשחק.</value>
+  </data>
+  <data name="Rules_line6" xml:space="preserve">
+    <value>- לחשוף מספר, וזה אומר לך כמה מוקשים רבים חבויים בשמונת ריבועים מידע המקיף אותך להשתמש בו כדי להסיק שריבועים סמוכים הם בטוחים לפתוח.</value>
+  </data>
+  <data name="Rules_line7" xml:space="preserve">
+    <value>רמזים ועצות:</value>
+  </data>
+  <data name="Rules_line8" xml:space="preserve">
+    <value>- מארק המוקשים. אם אתם חושדים כיכר מסתירה, הקש עליו. זה מעמיד בכיכר דגל.</value>
+  </data>
+  <data name="Rules_line9" xml:space="preserve">
+    <value>- גלאי שימוש. אם אתה בטוח שעל כל דגל סביב מספר, הקש עליו ולחשוף את כל התאים סביב המספר הזה</value>
+  </data>
+  <data name="ADescription" xml:space="preserve">
+    <value>שולה המוקשים קלאסי משחק, עותק של המשחק הרגיל של Windows. זו חידה - אתה צריך לנקות את שדה מוקשים. על ידי רמזים שאתה צריך להבין את מיקום מוקשים ולסמן אותם. אתה יכול לבחור את רמת הקושי ממתחילים ועד מומחה או ליצור משחק משלכם. יישום זה הוא חופשי לחלוטין ואינו מכיל כל פרסום.</value>
+  </data>
+  <data name="AKeywords" xml:space="preserve">
+    <value>חידת מספר, מוקש, לוגיקה, דגל,</value>
+  </data>
+  <data name="ATitle1" xml:space="preserve">
+    <value>שולת מוקשים</value>
+  </data>
+  <data name="ATitle2" xml:space="preserve">
+    <value>שולה המוקשים קלאסית</value>
+  </data>
+  <data name="ATitle3" xml:space="preserve">
+    <value>Lazy שולה המוקשים</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>he-IL</value>
+  </data>
+  <data name="WrongParamsMessage" xml:space="preserve">
+    <value>אי אפשר ליצור משחק עם הפרמטרים האלה</value>
+  </data>
+</root>

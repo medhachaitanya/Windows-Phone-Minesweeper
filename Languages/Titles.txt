@@ -1,0 +1,174 @@
+﻿Default
+en-US
+Lazy Minesweeper
+
+Arabic
+ar-SA
+AppResLib.dll.0401.mui
+ADescription	الكلاسيكية لعبة كاسحة الألغام، ونسخة من لعبة ويندوز القياسية. هذا هو اللغز - يجب مسح حقل ألغام. تلميحات من قبل لديك لمعرفة موقع الألغام الأرضية وتجنبها. يمكنك اختيار مستوى الصعوبة من begginer إلى خبير أو إنشاء اللعبة الخاصة بك. هذا التطبيق مجاني تماما ولا يحتوي على أي إعلانات.
+AKeywords	اللغز، الألغام الأرضية، والمنطق، والعلم، العدد
+AppName	لعبة كاسحة الألغام الكلاسيكية
+ATitle1	كاسحة ألغام
+ATitle2	كاسحة الألغام الكلاسيكية
+ATitle3	كسول كاسحة الألغام
+
+
+Czech (Czech Republic)
+cs-CZ
+AppResLib.dll.0405.mui
+ADescription	Classic Minesweeper hra, kopie standardní hry systému Windows. To je puzzle - měli byste vyčistit minové pole. Tím rad musíte přijít na to, nášlapné miny místo a vyhnout se jim. Můžete si vybrat úroveň obtížnosti od začátečník na znalce nebo vytvořit svou vlastní hru. Tato aplikace je zcela zdarma a neobsahuje žádnou reklamu.
+AKeywords	puzzle, nášlapná mina, logika, vlajka, číslo
+AppName	Classic Minesweeper Game
+ATitle1	Sapér
+ATitle2	Klasický Sapér
+ATitle3	Lazy Minesweeper
+
+Danish (Denmark)
+da-DK
+AppResLib.dll.0406.mui
+ADescription	Classic Minestryger spil, en kopi af den standard Windows spil. Dette er et puslespil - du skal klare et minefelt. Ved hints du nødt til at finde ud af landminer placering og undgå dem. Du kan vælge sværhedsgrad fra en nybegynder til en ekspert eller oprette dit eget spil. Denne applikation er helt gratis og indeholder ingen reklamer.
+AKeywords	puslespil, landminer, logik, flag, tal
+AppName	Classic Minestryger Spil
+ATitle1	Sapper
+* ATitle2	Classic Minestryger
+ATitle3	Lazy Minestryger
+
+German (Germany)
+de-DE
+AppResLib.dll.0407.mui
+ADescription	Klassische Spiel Minesweeper, eine Kopie der Standard-Windows-Spiel. Dies ist ein Puzzle - Sie sollten ein Minenfeld zu löschen. Durch Hinweise haben Sie, um herauszufinden, Landminen Lage und zu vermeiden. Sie können den Schwierigkeitsgrad von einem begginer zu einem Experten wählen oder erstellen Sie Ihr eigenes Spiel. Diese Anwendung ist völlig kostenlos und enthält keine Werbung enthalten.
+AKeywords	Puzzle, Landminen, Logik, Flagge, Anzahl
+AppName	Klassisches Minesweeper Spiel
+ATitle1	Minensucher
+ATitle2	Klassisches Minesweeper
+ATitle3	Faule Minesweeper
+
+Spanish (Spain)
+es-ES
+AppResLib.dll.0c0a.mui
+ADescription	Clásico Buscaminas juego, una copia del juego estándar de Windows. Se trata de un rompecabezas - usted debe limpiar un campo de minas. Por consejos que tienes que averiguar las minas terrestres ubicación y evitarlos. Usted puede elegir el nivel de dificultad, desde un principiante a un experto o crear su propio juego. Esta aplicación es totalmente gratuita y no contiene ningún tipo de publicidad.
+AKeywords	rompecabezas, las minas terrestres, la lógica, la bandera, el número
+AppName	Clásico Buscaminas Juego
+ATitle1	Dragaminas
+ATitle2	Clásico Buscaminas
+ATitle3	Lazy Buscaminas
+
+French (France)
+fr-FR
+AppResLib.dll.040c.mui
+ADescription	Démineur classique jeu, une copie du jeu standard de Windows. Il s'agit d'un puzzle - vous devez effacer un champ de mines. Par des notes que vous avez à comprendre les mines emplacement et les éviter. Vous pouvez choisir le niveau de difficulté d'un begginer à un expert ou créer votre propre jeu. Cette application est entièrement gratuit et ne contient pas de publicité.
+AKeywords	puzzle, mines, logique, pavillon, numéro
+AppName	Démineur classique jeu
+ATitle1	Dragueur de mines
+ATitle2	Classique Démineur
+ATitle3	Lazy Démineur
+
+Hebrew
+he-IL
+AppResLib.dll.040d.mui
+ADescription	שולה המוקשים קלאסי משחק, עותק של המשחק הרגיל של Windows. זו חידה - אתה צריך לנקות את שדה מוקשים. על ידי רמזים שיש לך להבין את המיקום מוקשים ולהימנע מהם. אתה יכול לבחור את רמת הקושי מ begginer למומחה או ליצור משחק משלכם. יישום זה הוא חופשי לחלוטין ואינו מכיל כל פרסום.
+AKeywords	חידת מספר, מוקש, לוגיקה, דגל,
+AppName	שולה המוקשים קלאסי משחק
+ATitle1	שולת מוקשים
+ATitle2	שולה המוקשים קלאסית
+ATitle3	Lazy שולה המוקשים
+
+Hindi
+hi-IN
+AppResLib.dll.0439.mui
+ADescription	क्लासिक माइनस्वीपर गेम, मानक Windows खेल की एक प्रति. यह एक पहेली है - क्या तुम एक minefield स्पष्ट करना चाहिए. संकेत द्वारा आप बारूदी सुरंगों स्थान के लिए बाहर निकालने और उन्हें बचने के लिए है. आप एक विशेषज्ञ करने के लिए एक शुरुआत से कठिनाई का स्तर चुन सकते हैं या अपने खुद के खेल बना सकते हैं. इस आवेदन पूरी तरह से स्वतंत्र है और किसी भी विज्ञापन शामिल नहीं है.
+AKeywords	पहेली, बारूदी सुरंग, तर्क, झंडा, संख्या
+AppName	क्लासिक Minesweeper खेल
+ATitle1	सफ़र - मैनावाला
+ATitle2	क्लासिक माइनस्वीपर
+ATitle3	आलसी माइनस्वीपर
+
+Italian (Italy)
+it-IT
+AppResLib.dll.0410.mui
+ADescription	Minesweeper Classic gioco, una copia del gioco standard di Windows. Questo è un puzzle - si dovrebbe eliminare un campo minato. Con accenni dovete capire mine di posizione e di evitare loro. È possibile scegliere il livello di difficoltà da un principiante ad un esperto o creare il proprio gioco. Questa applicazione è completamente gratuita e non contiene alcuna pubblicità.
+AKeywords	puzzle, mine, la logica, la bandiera, il numero
+AppName	Minesweeper Classic gioco
+ATitle1	Dragamine
+ATitle2	Dragamine Classico
+ATitle3	Pigro Minesweeper
+
+Norwegian (Norway)
+nb-NO
+AppResLib.dll.0414.mui
+ADescription	Classic Minesveiper Game, et eksemplar av standard Windows-spillet. Dette er et puslespill - du bør fjerne et minefelt. Av tipsene du må finne ut landminer plassering og unngå dem. Du kan velge vanskelighetsgrad fra en nybegynner til en ekspert eller lage ditt eget spill. Dette programmet er helt gratis og inneholder ingen reklame.
+AKeywords	puslespill, landmine, logikk, flagg, antall
+AppName	Classic Minesveiper spill
+ATitle1	Minesveiper
+ATitle2	Classic Minesveiper
+ATitle3	Lazy Minesveiper
+
+Dutch (Netherlands)
+nl-NL
+AppResLib.dll.0413.mui
+ADescription	Classic Minesweeper Game, een kopie van de standaard Windows-spel. Dit is een puzzel - moet u een mijnenveld wissen. Door hints je moet uitzoeken landmijnen locatie en ze te vermijden. U kunt de moeilijkheidsgraad kiezen uit een beginner tot een expert of maak je eigen spel. Deze applicatie is volledig gratis en bevat geen reclame bevatten.
+AKeywords	puzzel, landmijn, logica, vlag, nummer
+AppName	Classic Minesweeper Game
+ATitle1	Mijnenveger
+ATitle2	Klassieke Mijnenveger
+ATitle3	Lazy Mijnenveger
+
+Polish (Poland)
+pl-PL
+AppResLib.dll.0415.mui
+ADescription	Klasyczna gra Saper, kopia standardowej grze systemu Windows. To jest logiczna - należy wyczyścić pole minowe. Przez nutami musisz dowiedzieć się minami lokalizację i unikać ich. Możesz wybrać poziom trudności od początkujący do eksperta lub stworzyć własną grę. Aplikacja jest całkowicie darmowa i nie zawiera żadnych reklam.
+AKeywords	puzzle, min lądowych, logika, flagi, numer
+AppName	Klasyczna gra Saper
+ATitle1	Saper
+ATitle2	Klasyczny Saper
+ATitle3	Leniwy Saper
+
+Portuguese (Portugal)
+pt-PT
+AppResLib.dll.0816.mui
+ADescription	Minesweeper Jogo Classic, uma cópia do jogo padrão do Windows. Este é um quebra-cabeça - você deve limpar um campo minado. Por dicas que você tem que descobrir minas localização e evitá-los. Você pode escolher o nível de dificuldade de um iniciante a um especialista ou criar o seu próprio jogo. Este aplicativo é totalmente gratuito e não contém qualquer tipo de publicidade.
+AKeywords	quebra-cabeça, minas terrestres, a lógica, bandeira, número
+AppName	Minesweeper Classic Game
+ATitle1	Caça-minas
+ATitle2	Clássico Campo Minado
+ATitle3	Preguiçoso Campo Minado
+
+Russian (Russia)
+ru-RU
+AppResLib.dll.0419.mui
+ADescription	Классический Сапер - копия стандартной игры для Windows. Это головоломка - вы должны очистить минное поле. Используя подсказки требуется выяснить расположение мин и пометить их флажками. Вы можете выбирать уровень сложности от новичка до эксперта или создать игру с вашими собственными параметрами. Это приложение полностью бесплатное и вообще не содержит рекламы
+AKeywords	головоломка, мина, логика, флаг, число
+AppName	Классический Сапер игры
+ATitle1	Сапер
+ATitle2	Классический Сапер
+ATitle3	Ленивый Сапер
+
+Swedish (Sweden)
+sv-SE
+AppResLib.dll.041d.mui
+ADescription	Classic Röj spel, en kopia av den vanliga Windows-spel. Det här är ett pussel - du bör rensa ett minfält. Genom tips du måste lista ut landminor plats och undviker dem. Du kan välja svårighetsgrad från en nybörjare till en expert eller skapa ditt eget spel. Det här programmet är helt gratis och innehåller inte all reklam.
+AKeywords	pussel, landmina, logik, flagga, antal
+AppName	Klassisk minröjarspelet
+ATitle1	Minsveparen
+ATitle2	Klassisk Minsveparen
+ATitle3	Lazy Röj
+
+Turkish
+tr-TR
+AppResLib.dll.041f.mui
+ADescription	Klasik Mayın Tarlası Oyunu, standart Windows oyunun bir kopyasını. Bu bir bulmaca - Eğer bir mayın tarlası temizlemek gerekir. Ipuçları By mayınla yerini anlamaya ve bunları önlemek var. Sen uzman bir Begginer gelen zorluk düzeyini seçin ya da kendi oyun yaratabilirsiniz. Bu uygulama tamamen ücretsiz ve herhangi bir reklam içermiyor.
+AKeywords	bulmaca, kara mayını, mantık, bayrak, sayı
+AppName	Klasik Mayın Tarlası Oyunu
+ATitle1	Mayın tarama gemisi
+ATitle2	Klasik Mayın Tarlası
+ATitle3	Lazy Mayın Tarlası
+
+Chinese Simplified (PRC)
+zh-CN
+AppResLib.dll.0804.mui
+ADescription	经典的扫雷游戏，标准的Windows游戏的副本. 这是一个谜 - 你应该清除雷区. 通过提示你要搞清楚地雷的位置，并避免它们. 您可以从begginer选择难度等级，以专家或创建自己的游戏. 此应用程序是完全免费的，并且不包含任何广告.
+AKeywords	拼图，地雷，逻辑，标志，号
+AppName	经典的扫雷游戏
+ATitle1	扫雷
+* ATitle2	经典扫雷
+ATitle3	懒扫雷

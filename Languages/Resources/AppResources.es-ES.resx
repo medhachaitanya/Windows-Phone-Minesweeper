@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPageTitle" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="ADescription" xml:space="preserve">
+    <value>Juego Clasico Buscaminas , una copia del juego estandar de Windows. Se trata de un rompecabezas - usted debe limpiar un campo de minas. Por consejo tiene que averiguar la ubicaciуn de las minas terrestres y evitarlas. Usted puede elegir el nivel de dificultad, desde un principiante a un experto o crear su propio juego. Esta aplicacion es totalmente gratuita y no contiene ningun tipo de publicidad.</value>
+  </data>
+  <data name="AKeywords" xml:space="preserve">
+    <value>rompecabezas, las minas terrestres, la logica, la bandera, el nъmero</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Juego Clasico Buscaminas </value>
+  </data>
+  <data name="ATitle1" xml:space="preserve">
+    <value>Buscaminas</value>
+  </data>
+  <data name="ATitle2" xml:space="preserve">
+    <value>Clasico Buscaminas</value>
+  </data>
+  <data name="ATitle3" xml:space="preserve">
+    <value>Buscaminas perezoso</value>
+  </data>
+  <data name="ChampionsPageTitle" xml:space="preserve">
+    <value>Campeones</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>LazyPenguin Estudio</value>
+  </data>
+  <data name="Congratulation" xml:space="preserve">
+    <value>ЎЎЎFelicitaciones!!!</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Rusia</value>
+  </data>
+  <data name="designer" xml:space="preserve">
+    <value>Diseсador Grбfico:</value>
+  </data>
+  <data name="DesignerName" xml:space="preserve">
+    <value>Fernando Castilio</value>
+  </data>
+  <data name="developer" xml:space="preserve">
+    <value>Desarrollador:</value>
+  </data>
+  <data name="DeveloperName" xml:space="preserve">
+    <value>Evgeny Freyman</value>
+  </data>
+  <data name="EnterNamePhrase" xml:space="preserve">
+    <value>Por favor, introduzca su nombre</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Salida</value>
+  </data>
+  <data name="ExitQuestion" xml:space="preserve">
+    <value>їDeseas realmente salir del juego?</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Ayudar</value>
+  </data>
+  <data name="HelpMessage_line1" xml:space="preserve">
+    <value>Este es un juego del clasico buscaminas. Las reglas son las mismas que en el juego de Buscaminas de Windows estandar, pero con un control diferente. La descripciуn completa de las reglas esta disponible en la pagina de inicio (desplazar la pantalla hacia la derecha).</value>
+  </data>
+  <data name="HelpMessage_line2" xml:space="preserve">
+    <value>Para descubrir una celda - mantenga un dedo en la celda durante algun tiempo. El juego empieza tan pronto como se descubre la primera celda.</value>
+  </data>
+  <data name="HelpMessage_line3" xml:space="preserve">
+    <value>Para colocar una bandera - toque de un dedo en la celda.</value>
+  </data>
+  <data name="HelpMessage_line4" xml:space="preserve">
+    <value>Para usar el detector de minas - toque con el dedo sobre el numero en torno a la celda que desea descubrir. Recuerde que es seguro solo si todas las banderas de alrededor del numero es correcto.</value>
+  </data>
+  <data name="HelpMessage_line5" xml:space="preserve">
+    <value>Es comodo jugando utilizando el detector de minas tan a menudo como sea posible y el descubrimiento de celdas mediante la manteniendo el dedo muy raramente.</value>
+  </data>
+  <data name="HelpMessage_line6" xml:space="preserve">
+    <value>Buena suerte</value>
+  </data>
+  <data name="landmines" xml:space="preserve">
+    <value>Minas terrestres</value>
+  </data>
+  <data name="level1" xml:space="preserve">
+    <value>Principiante</value>
+  </data>
+  <data name="level2" xml:space="preserve">
+    <value>Intermedio</value>
+  </data>
+  <data name="level3" xml:space="preserve">
+    <value>Experto</value>
+  </data>
+  <data name="levelx" xml:space="preserve">
+    <value>Especial</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Bueno</value>
+  </data>
+  <data name="ooops" xml:space="preserve">
+    <value>Ooops!</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>es-ES</value>
+  </data>
+  <data name="rules" xml:space="preserve">
+    <value>Reglas</value>
+  </data>
+  <data name="Rules_line1" xml:space="preserve">
+    <value>El objetivo:</value>
+  </data>
+  <data name="Rules_line10" xml:space="preserve">
+    <value>- Estudia los patrones. Si tres cuadradosen una fila de 2-3-2, entonces usted sabrб tres minas terrestres que probablemente se alinearon al lado de esa fila. Si un cuadrado dice 8, todas las plazas circundantes se extrae.</value>
+  </data>
+  <data name="Rules_line11" xml:space="preserve">
+    <value>- Explorar lo inexplorado. їNo sabes donde hacer click para siguiente?. Intente limpiar los mismos territoriso inexplorado. Es mejor hacer clic en el centro de los cuadrados no marcados, que en un area que usted sospecha que esta minada.</value>
+  </data>
+  <data name="Rules_line2" xml:space="preserve">
+    <value>- Encontrar los cuadrados vacios, evitando las minas. Cuando mas rapido a despejar el tablero, mejor sera tu puntuacion.</value>
+  </data>
+  <data name="Rules_line3" xml:space="preserve">
+    <value>Cуmo jugar:</value>
+  </data>
+  <data name="Rules_line4" xml:space="preserve">
+    <value>- Al descubrir una mina terrestre, el juego finaliza.</value>
+  </data>
+  <data name="Rules_line5" xml:space="preserve">
+    <value>- Al descubrir una casilla vaciapodra seguir jugando.</value>
+  </data>
+  <data name="Rules_line6" xml:space="preserve">
+    <value>- Al descubre un nъmero, le indica cuantas minas se esconde en los ocho cuadrados que rodea la informaciуn que utiliza para deducir que cuadrado cercanos son seguros para abrir.</value>
+  </data>
+  <data name="Rules_line7" xml:space="preserve">
+    <value>Consejos y sugerencias:</value>
+  </data>
+  <data name="Rules_line8" xml:space="preserve">
+    <value>- Marca las minas terrestres. Si usted sospecha que un cuadrado oculta una mina, tocalo. Esto coloca una bandera en el cuadrado.</value>
+  </data>
+  <data name="Rules_line9" xml:space="preserve">
+    <value>- Utilice un detector de minas. Si esta seguro acerca de todas las banderas en torno a un numero, toquelo y esto abrira todas las celdas de todo ese nъmero.</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>segundos</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>Juego</value>
+  </data>
+  <data name="soundEffects" xml:space="preserve">
+    <value>Efectos sonoros</value>
+  </data>
+  <data name="StartButton" xml:space="preserve">
+    <value>Comienzo</value>
+  </data>
+  <data name="UnhandledMessage_line1" xml:space="preserve">
+    <value>Tenemos un problema: (</value>
+  </data>
+  <data name="UnhandledMessage_line2" xml:space="preserve">
+    <value>No te preocupes, el informe ya fue enviado a los desarrolladores y ahora estan trabajando arduo con el fin de solucionar este problema :)</value>
+  </data>
+  <data name="UnhandledMessage_line3" xml:space="preserve">
+    <value>Si usted esta realmente enojado, envie un correo electronico aqui:</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Desconocido</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>versiуn</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>Ancho</value>
+  </data>
+  <data name="WrongParamsMessage" xml:space="preserve">
+    <value>Es imposible crear un juego con estos parametros</value>
+  </data>
+</root>

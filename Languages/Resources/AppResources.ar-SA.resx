@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPageTitle" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>لعبة كاسحة الألغام الكلاسيكية</value>
+  </data>
+  <data name="ChampionsPageTitle" xml:space="preserve">
+    <value>بطل</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>LazyPenguin ستوديو</value>
+  </data>
+  <data name="Congratulation" xml:space="preserve">
+    <value>مبروك!</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>روسيا</value>
+  </data>
+  <data name="designer" xml:space="preserve">
+    <value>مصمم جرافيك</value>
+  </data>
+  <data name="DesignerName" xml:space="preserve">
+    <value>فرناندو Castilio</value>
+  </data>
+  <data name="developer" xml:space="preserve">
+    <value>المطور</value>
+  </data>
+  <data name="DeveloperName" xml:space="preserve">
+    <value>يفغيني Freyman</value>
+  </data>
+  <data name="EnterNamePhrase" xml:space="preserve">
+    <value>من فضلك ادخل اسمك</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="ExitQuestion" xml:space="preserve">
+    <value>هل تريد حقا أن ترك اللعبة؟</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>ارتفاع</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>مساعدة</value>
+  </data>
+  <data name="HelpMessage_line1" xml:space="preserve">
+    <value>هذه هي لعبة كاسحة ألغام الكلاسيكية. القواعد هي نفسها في مستوى اللعبة النوافذ كاسحة ألغام، ولكن يختلف السيطرة. وصف كامل لقواعد متاح في صفحة البداية (تحويل الشاشة إلى اليمين).</value>
+  </data>
+  <data name="HelpMessage_line2" xml:space="preserve">
+    <value>للكشف عن خلية - عقد الاصبع على الخلية لبعض الوقت. تبدأ اللعبة حالما يتم كشف الخلية الأولى.</value>
+  </data>
+  <data name="HelpMessage_line3" xml:space="preserve">
+    <value>لوضع العلم - الاستفادة الاصبع على الخلية.</value>
+  </data>
+  <data name="HelpMessage_line4" xml:space="preserve">
+    <value>لاستخدام كاشف الألغام - الاستفادة الاصبع على عدد حولها تريد كشف الخلايا. تذكر أنه آمن إلا إذا كل العلم حول هذا الرقم هو الصحيح.</value>
+  </data>
+  <data name="HelpMessage_line5" xml:space="preserve">
+    <value>اللعب مريحة نفترض باستخدام كاشف الألغام كلما كان ذلك ممكنا وكشف الخلايا عن طريق عقد الاصبع نادرا جدا.</value>
+  </data>
+  <data name="HelpMessage_line6" xml:space="preserve">
+    <value>حظا سعيدا</value>
+  </data>
+  <data name="landmines" xml:space="preserve">
+    <value>الألغام الأرضية</value>
+  </data>
+  <data name="level1" xml:space="preserve">
+    <value>مبتدئ</value>
+  </data>
+  <data name="level2" xml:space="preserve">
+    <value>متوسط</value>
+  </data>
+  <data name="level3" xml:space="preserve">
+    <value>خبير</value>
+  </data>
+  <data name="levelx" xml:space="preserve">
+    <value>خاص</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>حسنا</value>
+  </data>
+  <data name="ooops" xml:space="preserve">
+    <value>خطأ!</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>ثواني</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>لعبة</value>
+  </data>
+  <data name="soundEffects" xml:space="preserve">
+    <value>المؤثرات الصوتية</value>
+  </data>
+  <data name="StartButton" xml:space="preserve">
+    <value>بداية</value>
+  </data>
+  <data name="UnhandledMessage_line1" xml:space="preserve">
+    <value>لدينا مشكلة: (</value>
+  </data>
+  <data name="UnhandledMessage_line2" xml:space="preserve">
+    <value>لا تقلق، تم إرسال التقرير بالفعل للمطورين والآن هم يعملون بجد من أجل إصلاح هذه المشكلة :)</value>
+  </data>
+  <data name="UnhandledMessage_line3" xml:space="preserve">
+    <value>إذا كنت غاضبا حقا، يرجى البريد الالكتروني هنا:</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>غير معروف</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>الإصدار</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="rules" xml:space="preserve">
+    <value>قواعد</value>
+  </data>
+  <data name="Rules_line1" xml:space="preserve">
+    <value>الكائن:</value>
+  </data>
+  <data name="Rules_line10" xml:space="preserve">
+    <value>- دراسة أنماط. إذا ثلاثة مربعات في عرض الصف 2-3-2، ثم انت تعرف ربما تصطف ثلاث الألغام الأرضية إلى جوار هذا الصف. إذا قال مربع 8، ويتم استخراج كل مربع المحيطة.</value>
+  </data>
+  <data name="Rules_line11" xml:space="preserve">
+    <value>- اكتشف غير مستكشفة. لست متأكدا من أين انقر المقبل؟. كنت أفضل حالا النقر في وسط الساحات لا تحمل علامات مما كان عليه في منطقة كنت تشك يتم استخراج.</value>
+  </data>
+  <data name="Rules_line2" xml:space="preserve">
+    <value>- البحث عن المربعات فارغة مع تجنب الألغام. وكنت أسرع اضحة الى المجلس، كان ذلك أفضل درجاتك.</value>
+  </data>
+  <data name="Rules_line3" xml:space="preserve">
+    <value>كيفية اللعب:</value>
+  </data>
+  <data name="Rules_line4" xml:space="preserve">
+    <value>- الكشف عن الألغام الأرضية، وتنتهي اللعبة.</value>
+  </data>
+  <data name="Rules_line5" xml:space="preserve">
+    <value>- كشف ساحة فارغة، وعليك أن تبقي اللعب.</value>
+  </data>
+  <data name="Rules_line6" xml:space="preserve">
+    <value>- كشف عدد، وتقول لك كيف وضع العديد من الألغام الأرضية مخبأة في الساحات المحيطة ثمانية المعلومات التي تستخدمها للاستدلال الذي الساحات المجاورة هي آمنة للفتح.</value>
+  </data>
+  <data name="Rules_line7" xml:space="preserve">
+    <value>تلميحات ونصائح:</value>
+  </data>
+  <data name="Rules_line8" xml:space="preserve">
+    <value>- كافة الألغام الأرضية. إذا كنت تشك في وجود مربع يخفي الألغام، اضغط عليها. هذا يضع علامة على مربع.</value>
+  </data>
+  <data name="Rules_line9" xml:space="preserve">
+    <value>- للكشف عن استخدام الألغام. إذا كنت متأكدا من كل العلم حول عدد، اضغط عليها وهذا كشف جميع الخلايا حول هذا العدد</value>
+  </data>
+  <data name="ADescription" xml:space="preserve">
+    <value>الكلاسيكية لعبة كاسحة الألغام، ونسخة من لعبة ويندوز القياسية. هذا هو اللغز - يجب مسح حقل ألغام. بواسطة تلميحات يجب عليك معرفة مكان الألغام الأرضية ووضع علامة عليها. يمكنك اختيار مستوى الصعوبة من المبتدئين إلى خبير أو إنشاء اللعبة الخاصة بك. هذا التطبيق مجاني تماما ولا يحتوي على أي إعلانات.</value>
+  </data>
+  <data name="AKeywords" xml:space="preserve">
+    <value>اللغز، الألغام الأرضية، والمنطق، والعلم، العدد</value>
+  </data>
+  <data name="ATitle1" xml:space="preserve">
+    <value>كاسحة ألغام</value>
+  </data>
+  <data name="ATitle2" xml:space="preserve">
+    <value>كاسحة الألغام الكلاسيكية</value>
+  </data>
+  <data name="ATitle3" xml:space="preserve">
+    <value>كسول كاسحة الألغام</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ar-SA</value>
+  </data>
+  <data name="WrongParamsMessage" xml:space="preserve">
+    <value>فمن المستحيل لخلق لعبة مع هذه المعايير</value>
+  </data>
+</root>

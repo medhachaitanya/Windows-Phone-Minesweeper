@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPageTitle" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Klasik Mayın Tarlası Oyunu</value>
+  </data>
+  <data name="ChampionsPageTitle" xml:space="preserve">
+    <value>Şampiyonlar</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>LazyPenguin Stüdyo</value>
+  </data>
+  <data name="Congratulation" xml:space="preserve">
+    <value>Tebrikler!</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Rusya</value>
+  </data>
+  <data name="designer" xml:space="preserve">
+    <value>grafik tasarımcı</value>
+  </data>
+  <data name="DesignerName" xml:space="preserve">
+    <value>Fernando Castilio</value>
+  </data>
+  <data name="developer" xml:space="preserve">
+    <value>geliştiricisi</value>
+  </data>
+  <data name="DeveloperName" xml:space="preserve">
+    <value>Evgeny Freyman</value>
+  </data>
+  <data name="EnterNamePhrase" xml:space="preserve">
+    <value>Lütfen adınızı girin</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="ExitQuestion" xml:space="preserve">
+    <value>Eğer gerçekten oyunu terk etmek istiyor musunuz?</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="HelpMessage_line1" xml:space="preserve">
+    <value>Bu bir klasik mayın tarama gemisi oyun. Kurallar standart windows mayın tarama gemisi oyun olarak aynıdır, fakat kontrol farklıdır. Tam kuralları açıklaması (sağa ekran kayması) başlangıç ​​sayfasında mevcuttur.</value>
+  </data>
+  <data name="HelpMessage_line2" xml:space="preserve">
+    <value>Bir hücreyi ortaya çıkarmak için - bir süre için hücre üzerinde bir parmak tutun. Oyun kısa sürede ilk hücre ortaya gibi başlar.</value>
+  </data>
+  <data name="HelpMessage_line3" xml:space="preserve">
+    <value>Bir bayrak koymak - hücrede bir parmağınızı dokunun.</value>
+  </data>
+  <data name="HelpMessage_line4" xml:space="preserve">
+    <value>Mayın dedektörü kullanmak için - Hücreleri ortaya çıkarmak istediğiniz etrafında sayısına parmağınızı dokunun. Bu sayının etrafında her bayrak doğru yalnızca güvenli olduğunu unutmayın.</value>
+  </data>
+  <data name="HelpMessage_line5" xml:space="preserve">
+    <value>Rahat oyun mümkün olduğunca sık mayın dedektörü kullanarak ve çok nadiren bir parmağını tutarak hücreleri ortaya varsayalım.</value>
+  </data>
+  <data name="HelpMessage_line6" xml:space="preserve">
+    <value>İyi şanslar</value>
+  </data>
+  <data name="landmines" xml:space="preserve">
+    <value>Mayınlar</value>
+  </data>
+  <data name="level1" xml:space="preserve">
+    <value>Acemi</value>
+  </data>
+  <data name="level2" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="level3" xml:space="preserve">
+    <value>Uzman</value>
+  </data>
+  <data name="levelx" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>tamam</value>
+  </data>
+  <data name="ooops" xml:space="preserve">
+    <value>Pardon!</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>saniye</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>Oyun</value>
+  </data>
+  <data name="soundEffects" xml:space="preserve">
+    <value>Ses efektleri</value>
+  </data>
+  <data name="StartButton" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UnhandledMessage_line1" xml:space="preserve">
+    <value>Biz bir sorun var: (</value>
+  </data>
+  <data name="UnhandledMessage_line2" xml:space="preserve">
+    <value>Merak etmeyin, rapor zaten geliştiriciler gönderildi ve şimdi bu sorunu gidermek amacıyla çalışıyoruz :)</value>
+  </data>
+  <data name="UnhandledMessage_line3" xml:space="preserve">
+    <value>Eğer gerçekten öfkeli iseniz, burada lütfen e-posta:</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Bilinmeyen</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>versiyon</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="rules" xml:space="preserve">
+    <value>Kurallar</value>
+  </data>
+  <data name="Rules_line1" xml:space="preserve">
+    <value>Nesne:</value>
+  </data>
+  <data name="Rules_line10" xml:space="preserve">
+    <value>- Desenleri Eğitim. Bir satır ekranda 2-3-2 üç kareler, o zaman biliyorsanız üç mayınla muhtemelen o satırın yanındaki dizilmiş. Bir kare 8 diyorsa, her çevreleyen köşeli mayınlı.</value>
+  </data>
+  <data name="Rules_line11" xml:space="preserve">
+    <value>- Keşfedilmemiş keşfedin. Emin nereye gelecek tıklayın değil mi?. Eğer mayınlı şüpheli bir alanda daha işaretsiz kareler ortasında tıklayarak daha iyidir.</value>
+  </data>
+  <data name="Rules_line2" xml:space="preserve">
+    <value>- Mayın kaçınarak boş kareler bul. Hızlı tahta temizlemek, daha iyi puan.</value>
+  </data>
+  <data name="Rules_line3" xml:space="preserve">
+    <value>Nasıl oynanır:</value>
+  </data>
+  <data name="Rules_line4" xml:space="preserve">
+    <value>- Oyun biter ve bir mayına ortaya çıkarın.</value>
+  </data>
+  <data name="Rules_line5" xml:space="preserve">
+    <value>- Boş bir kare ortaya çıkarın ve oynamaya devam.</value>
+  </data>
+  <data name="Rules_line6" xml:space="preserve">
+    <value>- Bir numara ortaya çıkarın, ve o size söyler birçok mayınla yakındaki kareler açmak için güvenli olduğunu anlamak için kullanabileceğiniz sekiz çevreleyen kareler-bilgi gizli yatıyordu nasıl.</value>
+  </data>
+  <data name="Rules_line7" xml:space="preserve">
+    <value>İpuçları ve öneriler:</value>
+  </data>
+  <data name="Rules_line8" xml:space="preserve">
+    <value>- Mark mayınla. Eğer bir kare bir mayın gizleyen şüpheleniyorsanız, dokunun. Bu meydanda bir bayrak koyar.</value>
+  </data>
+  <data name="Rules_line9" xml:space="preserve">
+    <value>- Kullanım mayın dedektörü. Eğer bir dizi etrafında her bayrak konusunda emin değilseniz, bunu ve bu açığa çıkarın dokunun bu sayı çevresindeki tüm hücreler</value>
+  </data>
+  <data name="ADescription" xml:space="preserve">
+    <value>Klasik Mayın Tarlası Oyunu, standart Windows oyunun bir kopyasını. Bu bir bulmaca - Eğer bir mayın tarlası temizlemek gerekir. Ipuçları By mayınla yerini anlamaya ve onları işaretlemek gerekir. Bir uzman, bir acemi zorluk düzeyi seçebilir veya kendi oyun yaratabilirsiniz. Bu uygulama tamamen ücretsiz ve herhangi bir reklam içermiyor.</value>
+  </data>
+  <data name="AKeywords" xml:space="preserve">
+    <value>bulmaca, kara mayını, mantık, bayrak, sayı</value>
+  </data>
+  <data name="ATitle1" xml:space="preserve">
+    <value>Mayın tarama gemisi</value>
+  </data>
+  <data name="ATitle2" xml:space="preserve">
+    <value>Klasik Mayın Tarlası</value>
+  </data>
+  <data name="ATitle3" xml:space="preserve">
+    <value>Lazy Mayın Tarlası</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>tr-TR</value>
+  </data>
+  <data name="WrongParamsMessage" xml:space="preserve">
+    <value>Bu parametreler ile bir oyun yaratmak için imkansız</value>
+  </data>
+</root>

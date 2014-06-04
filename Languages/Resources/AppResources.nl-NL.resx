@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPageTitle" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Classic Minesweeper Game</value>
+  </data>
+  <data name="ChampionsPageTitle" xml:space="preserve">
+    <value>Kampioenen</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>LazyPenguin Studio</value>
+  </data>
+  <data name="Congratulation" xml:space="preserve">
+    <value>Gefeliciteerd!</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Rusland</value>
+  </data>
+  <data name="designer" xml:space="preserve">
+    <value>grafisch ontwerper</value>
+  </data>
+  <data name="DesignerName" xml:space="preserve">
+    <value>Fernando CASTILIO</value>
+  </data>
+  <data name="developer" xml:space="preserve">
+    <value>ontwikkelaar</value>
+  </data>
+  <data name="DeveloperName" xml:space="preserve">
+    <value>Evgeny Freyman</value>
+  </data>
+  <data name="EnterNamePhrase" xml:space="preserve">
+    <value>Voer uw naam in</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Uitgang</value>
+  </data>
+  <data name="ExitQuestion" xml:space="preserve">
+    <value>Wil je echt wilt het spel te verlaten?</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>Hoogte</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="HelpMessage_line1" xml:space="preserve">
+    <value>Dit is een klassieke mijnenveger spel. De regels zijn hetzelfde als in de standaard Windows mijnenveger spel, maar controle verschilt. Volledige beschrijving van de regels is beschikbaar op de startpagina (verschuiven het scherm naar rechts).</value>
+  </data>
+  <data name="HelpMessage_line2" xml:space="preserve">
+    <value>Om een ​​cel te ontdekken - houden de vinger aan de cel voor bepaalde tijd. Het spel begint zodra de eerste cel onbedekt.</value>
+  </data>
+  <data name="HelpMessage_line3" xml:space="preserve">
+    <value>Om een ​​vlag te zetten - tik een vinger op de cel.</value>
+  </data>
+  <data name="HelpMessage_line4" xml:space="preserve">
+    <value>De mijne detector gebruiken - tik een vinger op het nummer rond die u wilt cellen ontdekken. Vergeet niet dat het veilig is slechts dan als elke vlag rond dit nummer juist is.</value>
+  </data>
+  <data name="HelpMessage_line5" xml:space="preserve">
+    <value>Comfortabel spelen veronderstel gebruik mijn detector zo vaak mogelijk en het blootleggen van cellen door met een vinger zeer zelden.</value>
+  </data>
+  <data name="HelpMessage_line6" xml:space="preserve">
+    <value>Succes</value>
+  </data>
+  <data name="landmines" xml:space="preserve">
+    <value>Landmijnen</value>
+  </data>
+  <data name="level1" xml:space="preserve">
+    <value>Beginner</value>
+  </data>
+  <data name="level2" xml:space="preserve">
+    <value>Tussenliggend</value>
+  </data>
+  <data name="level3" xml:space="preserve">
+    <value>Expert</value>
+  </data>
+  <data name="levelx" xml:space="preserve">
+    <value>Speciaal</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ooops" xml:space="preserve">
+    <value>Ooops!</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>seconden</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>Spel</value>
+  </data>
+  <data name="soundEffects" xml:space="preserve">
+    <value>Geluidseffecten</value>
+  </data>
+  <data name="StartButton" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="UnhandledMessage_line1" xml:space="preserve">
+    <value>We hebben een probleem: (</value>
+  </data>
+  <data name="UnhandledMessage_line2" xml:space="preserve">
+    <value>Maak je geen zorgen, was het rapport al naar ontwikkelaars gestuurd en nu zijn ze hard aan het werk om dit probleem op te lossen :)</value>
+  </data>
+  <data name="UnhandledMessage_line3" xml:space="preserve">
+    <value>Als je echt boos, stuur een email hier:</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Onbekend</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>versie</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>Breedte</value>
+  </data>
+  <data name="rules" xml:space="preserve">
+    <value>Reglement</value>
+  </data>
+  <data name="Rules_line1" xml:space="preserve">
+    <value>Het object:</value>
+  </data>
+  <data name="Rules_line10" xml:space="preserve">
+    <value>- Bestudeer de patronen. Als er drie pleinen in een rij-display 2-3-2, dan weet je drie landmijnen waarschijnlijk opgesteld naast die rij. Als een vierkant zegt 8, wordt elke omliggende plein gedolven.</value>
+  </data>
+  <data name="Rules_line11" xml:space="preserve">
+    <value>- Ontdek de onontgonnen. Niet zeker waar te klikken volgende?. Je bent beter af te klikken in het midden van ongemarkeerde pleinen dan in een gebied dat u vermoedt dat wordt gewonnen.</value>
+  </data>
+  <data name="Rules_line2" xml:space="preserve">
+    <value>- Zoek de lege vakjes terwijl het vermijden van de mijnen. Hoe sneller je het bord leeg, hoe beter je score.</value>
+  </data>
+  <data name="Rules_line3" xml:space="preserve">
+    <value>Hoe om te spelen:</value>
+  </data>
+  <data name="Rules_line4" xml:space="preserve">
+    <value>- Ontdek een landmijn, en eindigt het spel.</value>
+  </data>
+  <data name="Rules_line5" xml:space="preserve">
+    <value>- Ontdek een leeg plein, en je blijft spelen.</value>
+  </data>
+  <data name="Rules_line6" xml:space="preserve">
+    <value>- Ontdek een nummer en je vertelt hoeveel landmijnen liggen verborgen in de acht omliggende pleinen-informatie die u gebruikt om af te leiden welke nabijgelegen pleinen zijn veilig om te openen.</value>
+  </data>
+  <data name="Rules_line7" xml:space="preserve">
+    <value>Hints en tips:</value>
+  </data>
+  <data name="Rules_line8" xml:space="preserve">
+    <value>- Mark de landmijnen. Als u vermoedt dat een plein verbergt een mijn, tikt u er. Dit legt een vlag op het plein.</value>
+  </data>
+  <data name="Rules_line9" xml:space="preserve">
+    <value>- Gebruik de mijne detector. Als u zeker weet over elke vlag rond een aantal, tikt het en dit Onthul alle cellen rondom dit nummer</value>
+  </data>
+  <data name="ADescription" xml:space="preserve">
+    <value>Classic Minesweeper Game, een kopie van de standaard Windows-spel. Dit is een puzzel - moet u een mijnenveld wissen. Door hints moet je uitzoeken landmijnen locatie en markeer ze. U kunt de moeilijkheidsgraad kiezen uit een beginner tot een expert of maak je eigen spel. Deze applicatie is volledig gratis en bevat geen reclame bevatten.</value>
+  </data>
+  <data name="AKeywords" xml:space="preserve">
+    <value>puzzel, landmijn, logica, vlag, nummer</value>
+  </data>
+  <data name="ATitle1" xml:space="preserve">
+    <value>Mijnenveger</value>
+  </data>
+  <data name="ATitle2" xml:space="preserve">
+    <value>Classic Minesweeper</value>
+  </data>
+  <data name="ATitle3" xml:space="preserve">
+    <value>Lazy Mijnenveger</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>nl-NL</value>
+  </data>
+  <data name="WrongParamsMessage" xml:space="preserve">
+    <value>Het is onmogelijk om een ​​spel met deze parameters maken</value>
+  </data>
+</root>

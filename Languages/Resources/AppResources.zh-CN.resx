@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPageTitle" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>经典的扫雷游戏</value>
+  </data>
+  <data name="ChampionsPageTitle" xml:space="preserve">
+    <value>冠军</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>LazyPenguin工作室</value>
+  </data>
+  <data name="Congratulation" xml:space="preserve">
+    <value>恭喜！</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>俄国</value>
+  </data>
+  <data name="designer" xml:space="preserve">
+    <value>平面设计师</value>
+  </data>
+  <data name="DesignerName" xml:space="preserve">
+    <value>费尔南多Castilio</value>
+  </data>
+  <data name="developer" xml:space="preserve">
+    <value>开发人员</value>
+  </data>
+  <data name="DeveloperName" xml:space="preserve">
+    <value>叶夫根尼·Freyman</value>
+  </data>
+  <data name="EnterNamePhrase" xml:space="preserve">
+    <value>请输入您的姓名</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>出口</value>
+  </data>
+  <data name="ExitQuestion" xml:space="preserve">
+    <value>你真的要离开游戏？</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="HelpMessage_line1" xml:space="preserve">
+    <value>这是一个经典的扫雷游戏. 该规则是一样的，在标准的Windows扫雷游戏，但不同的控制. 规则的完整描述可以在开始页面上（屏幕向右移动）.</value>
+  </data>
+  <data name="HelpMessage_line2" xml:space="preserve">
+    <value>发现一个细胞 - 用手指按住电池上一段时间. 本场比赛只要第一个单元格开始发现.</value>
+  </data>
+  <data name="HelpMessage_line3" xml:space="preserve">
+    <value>把一个标志 - 轻按手指在单元格上.</value>
+  </data>
+  <data name="HelpMessage_line4" xml:space="preserve">
+    <value>用探雷器 - 挖掘身边，你想揭开细胞的数量手指. 请记住，它是安全的，如果只是围绕这个数字每一个标志是正确的.</value>
+  </data>
+  <data name="HelpMessage_line5" xml:space="preserve">
+    <value>舒适的玩想用探雷器尽可能经常和拿着手指很少揭示细胞.</value>
+  </data>
+  <data name="HelpMessage_line6" xml:space="preserve">
+    <value>好运</value>
+  </data>
+  <data name="landmines" xml:space="preserve">
+    <value>地雷</value>
+  </data>
+  <data name="level1" xml:space="preserve">
+    <value>初学者</value>
+  </data>
+  <data name="level2" xml:space="preserve">
+    <value>中间</value>
+  </data>
+  <data name="level3" xml:space="preserve">
+    <value>专家</value>
+  </data>
+  <data name="levelx" xml:space="preserve">
+    <value>特别</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="ooops" xml:space="preserve">
+    <value>很抱歉！</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="soundEffects" xml:space="preserve">
+    <value>效果</value>
+  </data>
+  <data name="StartButton" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="UnhandledMessage_line1" xml:space="preserve">
+    <value>我们有一个问题：（</value>
+  </data>
+  <data name="UnhandledMessage_line2" xml:space="preserve">
+    <value>不要担心，该报告已经发送到开发者，现在他们正在努力工作，以解决这个问题:)</value>
+  </data>
+  <data name="UnhandledMessage_line3" xml:space="preserve">
+    <value>如果你是真的生气了，请电邮这里：</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="rules" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="Rules_line1" xml:space="preserve">
+    <value>对象：</value>
+  </data>
+  <data name="Rules_line10" xml:space="preserve">
+    <value>- 研究模式. 如果三个广场一排显示2-3-2，那么你知道三地雷可能正在排队该行旁. 若用方说8，每平方周围开采.</value>
+  </data>
+  <data name="Rules_line11" xml:space="preserve">
+    <value>- 探索未知. 不知道从哪里点击下一步？. 你最好点击在无人盯防的广场中间比在一个地区你怀疑被开采.</value>
+  </data>
+  <data name="Rules_line2" xml:space="preserve">
+    <value>- 寻找空位，同时避免地雷. 你越快明确董事会，更好的成绩.</value>
+  </data>
+  <data name="Rules_line3" xml:space="preserve">
+    <value>怎么玩：</value>
+  </data>
+  <data name="Rules_line4" xml:space="preserve">
+    <value>- 揭开一个地雷，游戏结束.</value>
+  </data>
+  <data name="Rules_line5" xml:space="preserve">
+    <value>- 揭开空方，而你继续玩.</value>
+  </data>
+  <data name="Rules_line6" xml:space="preserve">
+    <value>- 揭开一个数字，它会告诉你有多少地雷奠定藏在你用它来推断这附近的广场是安全的，打开周围八块信息.</value>
+  </data>
+  <data name="Rules_line7" xml:space="preserve">
+    <value>提示与技巧：</value>
+  </data>
+  <data name="Rules_line8" xml:space="preserve">
+    <value>- 马克地雷. 如果您怀疑方隐瞒矿山，请点选. 这使得一个标志，广场上.</value>
+  </data>
+  <data name="Rules_line9" xml:space="preserve">
+    <value>- 使用探雷器. 如果您确定对周围一些每个标志，点击它，这揭开围绕这个数字的所有单元格</value>
+  </data>
+  <data name="ADescription" xml:space="preserve">
+    <value>经典的扫雷游戏，标准的Windows游戏的副本. 这是一个谜 - 你应该清除雷区. 按提示，你应该弄清楚地雷的位置和它们标记. 您可以从初学者选择难度等级，以专家或创建自己的游戏. 此应用程序是完全免费的，并且不包含任何广告.</value>
+  </data>
+  <data name="AKeywords" xml:space="preserve">
+    <value>拼图，地雷，逻辑，标志，号</value>
+  </data>
+  <data name="ATitle1" xml:space="preserve">
+    <value>扫雷</value>
+  </data>
+  <data name="ATitle2" xml:space="preserve">
+    <value>经典扫雷</value>
+  </data>
+  <data name="ATitle3" xml:space="preserve">
+    <value>懒扫雷</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>zh-CN</value>
+  </data>
+  <data name="WrongParamsMessage" xml:space="preserve">
+    <value>这是不可能建立一个游戏用这些参数</value>
+  </data>
+</root>
